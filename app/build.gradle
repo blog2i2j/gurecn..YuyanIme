@@ -61,10 +61,6 @@ android {
     //多渠道打包
     flavorDimensions = ["default"]
     productFlavors {
-        online {
-            dimension "default"
-            applicationIdSuffix  ".online"
-        }
         offline {
             dimension "default"
             applicationIdSuffix  ".offline"
@@ -94,7 +90,7 @@ android {
     }
     android.applicationVariants.configureEach { variant ->
         variant.outputs.configureEach {
-            outputFileName = "yuyanIme_${versionCodeDate()}_${variant.getProductFlavors()[0].name}_${variant.buildType.name}.apk"   // offline      online
+            outputFileName = "yuyanIme_${versionCodeDate()}_${variant.buildType.name}.apk"
         }
     }
 }
