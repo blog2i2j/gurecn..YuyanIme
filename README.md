@@ -8,7 +8,7 @@
 手机扫码下载地址：
 | Github                           | Gitee                          |
 |----------------------------------|--------------------------------|
-| ![github](./download/github.png) | ![gitee](./download/gitee.png) |
+| ![github](images/download/github.png) | ![gitee](images/download/gitee.png) |
 
 使用过程中任何问题可以创建issues、应用内反馈或通过邮件等方式反馈，本人会根据需求及时修复。
 ## 设计原则：
